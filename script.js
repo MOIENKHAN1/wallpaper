@@ -3,7 +3,7 @@ const wallpapers = [
         id: 1,
         title: "Anime",
         category: "Anime",
-        url: "wallpapers/anime.jpg"
+        url: "wallpapers/Anime.jpg"
     },
     {
         id: 2,
