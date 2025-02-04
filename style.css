@@ -5,100 +5,94 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 header {
-    background: #1a73e8;
+    background-image: url('wallpapers/anime girl.jpg');
+    background-size: cover;
+    background-position: top;
     color: white;
-    padding: 1.5rem;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 2rem 0;
 }
 
-.search-container {
-    margin: 20px auto;
-    max-width: 600px;
+.header-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
-#searchInput {
-    width: 100%;
-    padding: 12px;
+.header-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    width: 50%;
     border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px 0 0 5px;
 }
 
-.category-filter {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.category-btn {
-    background: #fff;
-    border: 2px solid #1a73e8;
-    color: #1a73e8;
-    padding: 8px 20px;
-    margin: 5px;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.category-btn.active {
+.search-bar button {
+    padding: 0.5rem;
+    border: none;
     background: #1a73e8;
     color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background: #1a73e8;
+    color: white;
+    list-style: none;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+    cursor: pointer;
 }
 
 .wallpaper-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .wallpaper-item {
     position: relative;
-    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
-}
-
-.wallpaper-item:hover {
-    transform: translateY(-5px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .wallpaper-item img {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
+    height: auto;
+    transition: transform 0.3s;
 }
 
-.download-btn {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+.wallpaper-item:hover img {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
     background: #1a73e8;
     color: white;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    opacity: 0.9;
-}
-
-@media (max-width: 768px) {
-    .wallpaper-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-    
-    .wallpaper-item img {
-        height: 200px;
-    }
+    margin-top: 1rem;
 }
