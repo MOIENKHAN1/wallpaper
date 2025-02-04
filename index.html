@@ -3,27 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sexy Wallpapers Hub</title>
+    <title>Wallpaper Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>📱 HD Wallpapers Collection</h1>
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Search wallpapers...">
+        <div class="header-container">
+            <h1>WALLPAPERS</h1>
+            <p>Unleash Your Style - Download from Millions of Wallpapers</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search all Wallpapers">
+                <button>🔍</button>
+            </div>
         </div>
     </header>
-
-    <div class="category-filter">
-        <button class="category-btn active" data-category="all">All</button>
-        <button class="category-btn" data-category="sex">Sex</button>
-        <button class="category-btn" data-category="anal sex">Anal Sex</button>
-        <button class="category-btn" data-category="naked">Naked</button>
-        <button class="category-btn" data-category="sexy girl">Sexy Girl</button>
-    </div>
-
-    <div class="wallpaper-grid" id="wallpaperContainer"></div>
-
+    <nav>
+        <ul>
+            <li>All</li>
+            <li>Nature</li>
+            <li>Anime</li>
+            <li>Girl</li>
+            <li>Boy</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="wallpaper-grid">
+            <!-- Wallpapers will be dynamically loaded here -->
+        </div>
+    </main>
+    <footer>
+        <p>© Wallpaper Hub. All rights reserved.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
