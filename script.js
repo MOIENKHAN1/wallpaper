@@ -9,7 +9,6 @@ const wallpapers = [
     { id: 8, title: "Girl", category: "Girl", url: "wallpapers/korean-girl-in-white-with-roses-6vpptlgwdgu2z8dh.jpg" },
     { id: 12, title: "Boy", category: "Boy", url: "wallpapers/10001.jpg" },
     { id: 13, title: "Boy", category: "Boy", url: "wallpapers/10000.jpg" }
-    { id: 14, title: "Girl", category: "Girl", url: "wallpapers/korean-girl-lee-sung-kyung-n5e6sguc5ynxpdfm.jpg" }
 ];
 
 const wallpaperGrid = document.querySelector('.wallpaper-grid');
