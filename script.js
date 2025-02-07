@@ -7,8 +7,13 @@ const wallpapers = [
     { id: 6, title: "Anime", category: "Anime", url: "wallpapers/cityscape-anime-inspired-urban-area.jpg" },
     { id: 7, title: "Girl", category: "Girl", url: "wallpapers/athletic-korean-girl-h2md2eo7q2jf8gev.jpg" },
     { id: 8, title: "Girl", category: "Girl", url: "wallpapers/korean-girl-in-white-with-roses-6vpptlgwdgu2z8dh.jpg" },
-    { id: 12, title: "Boy", category: "Boy", url: "wallpapers/10001.jpg" },
-    { id: 13, title: "Boy", category: "Boy", url: "wallpapers/10000.jpg" },
+    { id: 9, title: "Boy", category: "Boy", url: "wallpapers/10001.jpg" },
+    { id: 10, title: "Boy", category: "Boy", url: "wallpapers/10000.jpg" },
+    { id: 10, title: "Girl", category: "Girl", url: "wallpapers/korean-girl-lee-sung-kyung-n5e6sguc5ynxpdfm.jpg" },
+    { id: 10, title: "Girl", category: "Girl", url: "wallpapers/korean-girl-nana-9jbmfpoqlxe559bp.jpg" },
+    { id: 10, title: "Girl", category: "Girl", url: "wallpapers/korean-girl-posing-on-the-grass-b5dxput51vo85n40.jpg" },
+    { id: 10, title: "Gaming", category: "Gaming", url: "wallpapers/pexels.jpg" },
+
 ];
 
 const wallpaperGrid = document.querySelector('.wallpaper-grid');
