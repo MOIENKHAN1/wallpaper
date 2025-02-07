@@ -8,7 +8,7 @@ const wallpapers = [
     { id: 7, title: "Girl", category: "Girl", url: "wallpapers/athletic-korean-girl-h2md2eo7q2jf8gev.jpg" },
     { id: 8, title: "Girl", category: "Girl", url: "wallpapers/korean-girl-in-white-with-roses-6vpptlgwdgu2z8dh.jpg" },
     { id: 12, title: "Boy", category: "Boy", url: "wallpapers/10001.jpg" },
-    { id: 13, title: "Boy", category: "Boy", url: "wallpapers/10000.jpg" }
+    { id: 13, title: "Boy", category: "Boy", url: "wallpapers/10000.jpg" },
 ];
 
 const wallpaperGrid = document.querySelector('.wallpaper-grid');
