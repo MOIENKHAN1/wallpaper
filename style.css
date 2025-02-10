@@ -1,3 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Header h1 */
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Paragraph styling */
+.header-container p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+}
+
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 45px !important;  /* !important added */
+    }
+
+    .header-container p {
+        font-size: 16px !important;  /* !important added */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 36px !important;  /* !important added */
+    }
+
+    .header-container p {
+        font-size: 14px !important;  /* !important added */
+    }
+}
+
+/* General Styles */
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +62,7 @@ header {
     padding: 2rem 0;
 }
 
+/* Adjusted header text styles */
 .header-container h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
@@ -130,4 +174,3 @@ nav ul li {
     transform: translateX(-50%) scale(0.9);
     box-shadow: 0 2px 4px rgba(255, 82, 123, 0.5);
 }
-
